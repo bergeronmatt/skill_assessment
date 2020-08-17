@@ -1,0 +1,132 @@
+// Global
+h2 {
+  @include section-text;
+}
+
+.page-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+// Hero Section
+.hero-container {
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.hero-container h1 {
+  @include header-text;
+  margin: auto;
+}
+
+// Content Section
+
+.content-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px 0px;
+  text-align: center;
+  padding: 0 20%;
+  background: $pale;
+  height: 200px;
+}
+
+// About Section
+
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.about-content-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  margin: auto;
+  height: 500px;
+}
+
+.about-image,
+.about-content,
+.cta-button {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+
+.about-content {
+  margin: 20px 20px;
+  padding: 0;
+  width: 50%;
+}
+
+.cta-button a {
+  background-color: $green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+// Contact Section
+
+.contact-wrapper {
+  background: $pale;
+}
+
+input {
+  background: $pale;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  width: 70%;
+}
+
+/** Gravity Forms styling */
+
+.gform_title {
+  text-align: center;
+  color: $green;
+}
+
+.gfield_label {
+  color: $green;
+}
+
+#gform_submit_button_1 {
+  background-color: $green;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+}
+
+#input_1_1_3, #input_1_1_6, #input_1_2 {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: $green solid 2px;
+}

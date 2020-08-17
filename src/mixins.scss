@@ -1,0 +1,14 @@
+//font styling
+
+@mixin header-text {
+    font-family: 'Times New Roman', Times, serif;
+    color: $pale;
+    text-shadow: 2px 2px #627917;
+    font-size: 6rem;
+}
+
+@mixin section-text {
+    font-family: 'Times New Roman', Times, serif;
+    color: $green;
+    font-size: 3rem;
+}

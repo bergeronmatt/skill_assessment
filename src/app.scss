@@ -1,0 +1,12 @@
+/** 
+    When the formatting and styling is completed, we need to compile this into the production version.
+
+    npm run prod
+
+    this will compress the version and make it more friendly for wordpress.
+*/
+
+@import 'mixins';
+@import 'variables';
+
+@import 'homepage';
